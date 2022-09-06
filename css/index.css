@@ -1,0 +1,245 @@
+.main {
+    width: 983px;
+    height: 456px;
+    margin-left: 218px;
+    margin-top: 10px;
+}
+
+.main .focus {
+    float: left;
+    width: 724px;
+    height: 456px;
+    background: url(../upload/focus_pic1.png) no-repeat;
+}
+
+.main .newsflash {
+    float: right;
+    width: 252px;
+    height: 456px;
+
+}
+
+.news {
+    width: 252px;
+    height: 165px;
+    border: 1px solid #e4e4e4;
+    border-bottom: none;
+}
+
+.news .newshead {
+    width: 252px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    border-bottom: dotted 1px #e8e8e7;
+}
+
+.newshead h2 {
+    float: left;
+    font-size: 14px;
+
+}
+
+.newshead a {
+    float: right;
+    font-size: 14px;
+}
+
+.newshead a::after {
+    content: '\e920';
+    font-family: icomoon;
+}
+
+.newsbody ul li {
+    height: 26px;
+    width: 252px;
+    line-height: 26px;
+    overflow: hidden;
+    padding: 0 14px;
+}
+
+.newsbody ul li h5 {
+    float: left;
+    font-size: 12px;
+}
+
+.items {
+    /* height: 215px; */
+    width: 252px;
+}
+
+.items ul li {
+    float: left;
+    height: 70px;
+    width: 63px;
+    border: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.items ul li i {
+    display: block;
+    height: 45px;
+    width: 50px;
+    background: url(../images/icons.png) no-repeat 0px -3px;
+}
+
+.items ul li:nth-of-type(2) {
+    position: relative;
+
+}
+
+.items ul li:nth-of-type(2) i {
+    height: 45px;
+    width: 50px;
+    background: url(../images/icons.png) no-repeat -65px -3px;
+}
+
+.items ul li:nth-of-type(2)::before {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    /* z-index: 1; */
+    content: 'off';
+    width: 13px;
+    height: 17px;
+    background-color: #589d5a;
+    color: white;
+}
+
+.main .newsflash .bargin {
+    margin-top: 4px;
+    height: 76px;
+    width: 252px;
+    background: url(../upload/bargain.png) no-repeat;
+}
+
+/* recommadation line */
+.recom {
+    margin-top: 11px;
+    width: 1200px;
+    height: 165px;
+}
+
+.recom .recom_hd {
+    float: left;
+    width: 207px;
+    height: 165px;
+    line-height: 165px;
+    background-color: #5c5251;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.recom .recom_body {
+    float: left;
+    width: 993px;
+    height: 165px;
+    background-color: #ebebeb;
+}
+
+.recom .recom_body ul li {
+    float: left;
+    height: 145px;
+    width: 248px;
+    margin: 10px 0;
+    text-align: center;
+    border-right: solid 1px #dddddd;
+}
+
+.recom .recom_body ul li img{
+    height: 145px;
+    width: 247px;
+}
+
+.recom .recom_body li:last-child {
+    border-right:none;
+}
+/* .floor include several w tabs, all can have margin-top */
+.floor .w{
+    margin-top: 30px;
+}
+
+.floor .box_hd{
+    width: 1200px;
+    height: 30px;
+    border-bottom: solid 1px #c81623;
+    padding-bottom: 10px;
+}
+
+.floor .box_hd h3{
+    float:left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.floor .box_hd .tab_lists{
+    float:right;
+}
+
+.floor .box_hd .tab_lists ul li{
+    float: left;
+    padding: 0 15px;
+}
+
+.floor .box_hd .tab_lists ul li:nth-child(-n+7){
+    border-right: solid 1px #999999;
+}
+
+.floor .box_bd{
+    height: 361px;
+}
+/* make sure all the div tab is the same height of 361px */
+.floor .box_bd .table_list_item>div{
+    float: left;
+    height: 361px;
+}
+
+.floor .box_bd .col1{
+    width: 210px;
+}
+
+.floor .box_bd .col1 ul li{
+    float: left;
+    height: 34px;
+    width: 86px;
+    text-align: center;
+    line-height: 34px;
+    border-bottom: solid 1px #ededed;
+    margin: 0 6px 0 13px;
+
+}
+
+.floor .box_bd .col1 img {
+    height: 260px;
+}
+
+.floor .box_bd .col2{
+    width: 329px;
+}
+
+/* very important: if <a>has a box with width and height, turn a into a block */
+.floor .box_bd .col3,.col5{
+    
+    height: 181px;
+    border-top: none;
+}
+
+.floor .box_bd .col3,.col4{
+    float: left;
+    width: 221px;
+    border-right:solid 1px #ededed;
+}
+
+.floor .box_bd .col5{
+    width: 219px;
+}
+
+.bb {
+    display: block;
+    border-bottom: solid 1px #ededed;
+
+}
+
+
+

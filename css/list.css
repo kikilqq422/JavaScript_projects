@@ -1,0 +1,51 @@
+.header .flashsale{
+    position: absolute;
+    top: 33px;
+    left: 190px;
+    border-left: solid 1px #b1191a;
+    padding-left: 13px;
+}
+
+.nav .flashsale_list a {
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 30px;
+}
+.nav .sale_con a:first-child{
+    margin-left: 10px;
+}
+.nav .sale_con a{
+    float: left;
+    padding: 0 25px;
+}
+/* !!!must choose li:last-child not a :last-child */
+.nav .sale_con li:last-child a::after{
+    font-family: 'icomoon';
+    content: '\e91e';
+}
+
+.salecontent .sale_hd{
+    height: 120px;
+}
+
+.salecontent .sale_bd ul{
+    width: 1220px;
+}
+
+.salecontent .sale_bd ul li{
+    overflow: hidden;
+    float: left;
+    width: 289px;
+    height: 459px;
+    margin:30px 14px 0 0;
+    border: 1px solid transparent;
+}
+
+.salecontent .sale_bd ul li:nth-child(4n){
+    margin-right: none;
+}
+
+.salecontent .sale_bd ul li:hover{
+    border: solid 1px #e12228;
+}
